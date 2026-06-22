@@ -6,43 +6,55 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
+> URL data was sourced from: https://data.ontario.ca/dataset/wages-by-education-level
+
+
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
 
-    I used python to create the graphs and power point for some more free annotations.
+    I used python (Viz 2) and R (Viz 1) to create the graphs and power point for some more free annotations.
 
     > Who is your intended audience? 
 
-    The intended audience are people (specifically men and woman in comparison) who are considering doing a highschool vs university degree and are interested in how it changes their wages. 
+   Viz 1&2)  The intended audience are people (specifically men and woman in comparison) who are considering doing a highschool vs university degree and are interested in how it changes their wages. 
     
     > What information or message are you trying to convey with your visualization? 
 
-    the graphic is showing the progression of wages (so iving a trendline in what to expect) and differences in wages between degrees and men and women. 
+    Viz 1) the graphic is showing the progression of wages through the years.
+    Viz 2) the barplot provides a comparison in wages between degrees and men and women. 
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
 
-    I adjusted the color schemes to not be overbearing. I highlightd the average values both in black and bold to give a good idea of averge trends. I adjusted the number of tick labels so there are not too many details.
+    I adjusted the color schemes to not be overbearing. For consistency, I highlightd the average values both in black and bold to give a good idea of averge trends in both visualizations. 
+    Viz 1) I adjusted the number of tick labels so there are not too many details. Colors are chosen as a sequence of green values to highlight the progression in level of degree.
+    Viz 2) As the graph is not very complex I was able to annotade the bar plots with the actual number values. 
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
 
-    It is reproducible based on the code I used and how i referenced the data from the csv file.
+    Viz 1&2) It is reproducible based on the code I used and how i referenced the data from the csv file.
     
     > How did you ensure that your data visualization is accessible?  
 
-    large fonts, not too many colors, black for the most important informaiton.
+    large fonts (>12), not too many colors, black for the most important informaiton.
+    Viz 1 ) Considering that the area of the lines is small, one would prefer very distinct colors. However, as I wanted to keep a logical progression in degree level with the colors, I comprimised by using a large dynamic range in color hue.
+    Viz 2) As the bars cover a large area, using two shades of bk=lue does not affect the color distinction ability strongly.
     
     > Who are the individuals and communities who might be impacted by your visualization?  
 
     All workers across canada.
+    Viz 1) especially workers with a higher degree of education.
+    Viz 2) men and women in particular. No focus on other genders however.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
 
-    I wanted to focus on differences between men and women and degrees as well as give a time trends. Therefore I chose only that infromation (while one could have also added diferences by age class, immigration status etc as they were given in the dataset as well). before choosing this final information representation i also compared differences across data across all Canada vs only ontario, but as I havent seen big differences, I chose to ommit the ontario data and focus on across Canada.
-    
-    > What ‘underwater labour’ contributed to your final data visualization product?
+   Viz 1) I wanted to focus the direct correlation between level of degree and wage and it's progressio in time. Differences due to age class, immigration status etc were given in the dataset as well, but I ommited them as they would better be underscored in seperate graphs. before choosing this final information representation i also compared differences across data across all Canada vs only ontario, but as I havent seen big differences, I chose to ommit the ontario data and focus on across Canada.
+   Viz 2) Here the main focus lies on the difference in pay between men and women. As there are pronounced differences across all ages, level of degress etc, I decided to only report the average values (over all levels of degree) and a large age group that encompasses most of the working population (25-64 years old).
 
-    - preprocessing and filtering what information of the file i want to show
-    - changes colorschemes (first i had women in pink in the bar chart and men in blue but it was too overwhelming)
+    > What ‘underwater labour’ contributed to your final data visualization product?
+    
+   Viz 1&2) - preprocessing and filtering what information of the file i want to show
+   Viz 1) Choosing whether I want to include markers or not (for examole average curve does not have markers as it woul dhave been too busy with the dashed line style)
+   Viz 2) - changes colorschemes (first i had women in pink in the bar chart and men in blue but it was too overwhelming)
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
